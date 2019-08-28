@@ -14,10 +14,16 @@ list:
 
 ## Run the code 
 - Navigate to directory
+- Put the images in same directory
 ```bash
 python brightness_level.py
 ```
-For a specific image file, first copy to same directory
+by default this script usage `test.jpg` as input image
+
+- For a specific image file
 ```bash
 python brightness_level.py filname.jpg
 ```
+
+## Refrence
+**[ Brightness Calculation in Digital Image Processing](https://www.ingentaconnect.com/contentone/ist/tdpf/2007/00002007/00000001/art00005?crawler=true)** by Sergey Bezryadin, Pavel Bourov*, Dmitry Ilinih*; KWE Int.Inc., San Francisco, CA, USA; *UniqueIC’s, Saratov, Russia.
